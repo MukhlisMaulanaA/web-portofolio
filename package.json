@@ -15,7 +15,8 @@
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "swr": "^2.2.5"
+    "swr": "^2.2.5",
+    "tailwind-typewriter": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -8,16 +8,14 @@ function Hero() {
       <div className="grid place-items-center min-h-[92vh] px-8">
         <div className="container mx-auto grid place-items-center h-max text-center">
           <Typography variant="h1" color="blue-gray">
-            My Resume
+            I'm <span className="type-skills"></span>
           </Typography>
           <Typography
             variant="lead"
             color="gray"
             className="mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl"
           >
-            Welcome to my professional resume page! Below, you&apos;ll find a
-            comprehensive overview of my skills, qualifications, and experience
-            in the field of web development.
+            Welcome to my resume page. Below you will get to know more about me. If you are interested, please contact me, feel free.
           </Typography>
           <Typography className="mt-12 mb-4 text-blue-gray-900 font-medium uppercase">
             Connect me on:

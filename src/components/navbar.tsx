@@ -51,24 +51,23 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <Typography
           as="a"
-          href="https://www.material-tailwind.com"
-          target="_blank"
+          href="#"
           color="blue-gray"
-          className="text-lg font-bold"
+          className="text-lg font-bold tracking-widest"
         >
-          Material Tailwind
+          AL-FAKIH.
         </Typography>
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map((nav) => (
             <NavItem key={nav}>{nav}</NavItem>
           ))}
         </ul>
-        <div className="hidden items-center gap-2 lg:flex">
+        {/* <div className="hidden items-center gap-2 lg:flex">
           <Button variant="text">Log in</Button>
           <a href="https://www.material-tailwind.com/blocks" target="_blank">
             <Button color="gray">blocks</Button>
           </a>
-        </div>
+        </div> */}
         <IconButton
           variant="text"
           color="gray"
@@ -90,10 +89,10 @@ export function Navbar() {
             ))}
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text">Log in</Button>
+            {/* <Button variant="text">Log in</Button>
             <a href="https://www.material-tailwind.com/blocks" target="_blank">
               <Button color="gray">blocks</Button>
-            </a>
+            </a> */}
           </div>
         </div>
       </Collapse>

@@ -7,7 +7,22 @@ const config: Config = withMT({
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {},
-  plugins: [],
+  plugins: [
+    require('tailwind-typewriter')({
+      wordsets: {
+        skills: {
+          words: [
+            'Laravel Developer',
+            'Python Developer',
+            'Machine Learning Engineer',
+            'Data Analytics',
+            'Graphic Designer'
+          ],
+          delay: 0
+        }
+      }
+    })
+  ],
 });
 
 export default config;
