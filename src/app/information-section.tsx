@@ -104,54 +104,39 @@ const SKILLS = [
 export function InformationSection() {
   return (
     <section className="pb-28 px-8">
-      <div className="grid xl:grid-cols-2 md:grid-cols-1 container gap-20 mx-auto items-start">
-        <div>
-          <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
-              Education & Certifications
-            </Typography>
-            <Typography variant="lead" className="!text-gray-500">
-              See my education history.
-            </Typography>
-          </div>
-          <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
-            {EDUCATION.map((props, idx) => (
-              <InfoCard key={idx} {...props} />
-            ))}
-          </div>
-        </div>
-        <div>
-          <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
-              Experience
-            </Typography>
-            <Typography variant="lead" className="!text-gray-500">
-              See my experience as a developer.
-            </Typography>
-          </div>
-          <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
-            {EXPERIENCE.map((props, idx) => (
-              <InfoCard key={idx} {...props} />
-            ))}
-          </div>
-        </div>
-      </div>
-      <div className="container gap-20 mt-36 mx-auto items-center">
-        <div>
-          <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
-              Skills
-            </Typography>
-            <Typography variant="lead" className="!text-gray-500">
-              Check out my technical and soft skills.
-            </Typography>
-          </div>
-          <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12 lg:grid-cols-2">
-            {SKILLS.map((props, idx) => (
-              <InfoCard key={idx} {...props} />
-            ))}
-          </div>
-        </div>
+      <div className="w-full max-w-3xl mx-auto">
+        {/* Different Template */}
+
+        <ol className="relative border-s border-gray-200 dark:border-gray-700">
+
+          <li className="mb-10 ms-6">
+            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+              </svg>
+            </span>
+            <h3 className="text-lg font-bold text-gray-900 dark:text-white">Asisten Praktikum Mata Kuliah Aplikasi Pemrograman Komputer</h3>
+            <h4 className="mb-1 text-md font-semibold text-gray-900 dark:text-white">Universitas Singaperbangsa Karawang</h4>
+            <time className="mb-2 py-2 px-1 rounded-xl text-sm font-semibold leading-none text-green-800 dark:text-gray-500 bg-green-200">Oktober - December, 2022</time>
+            <p className="mt-2 text-base font-normal text-gray-800 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+          </li>
+
+          <li className="mb-10 ms-6">
+            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+              </svg>
+            </span>
+            <h3 className="text-lg font-bold text-gray-900 dark:text-white">Himpunan Mahasiswa Teknik Elektro 2022</h3>
+            <h4 className="mb-1 text-md font-semibold text-gray-900 dark:text-white">Universitas Singaperbangsa Karawang</h4>
+            <time className="mb-2 py-2 px-1 rounded-xl text-sm font-semibold leading-none text-green-800 dark:text-gray-500 bg-green-200">February 2022 - January, 2023</time>
+            <p className="mt-2 text-base font-normal text-gray-800 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+          </li>
+          
+          
+        </ol>
+
+
       </div>
     </section>
   );
