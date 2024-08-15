@@ -8,135 +8,113 @@ import {
 
 import InfoCard from "@/components/info-card";
 
-const EDUCATION = [
-  {
-    icon: AcademicCapIcon,
-    title: "Certified Web Developer - Web Development Institute",
-    date: "2016",
-    children:
-      "This comprehensive program covered HTML5, CSS3, JavaScript, responsive design, server-side scripting, and web security.",
-  },
-  {
-    icon: AcademicCapIcon,
-    title: "Responsive Web Design Certification - FreeCodeCamp",
-    date: "2015",
-    children:
-      "The Responsive Web Design certification signifies competence in designing and developing websites that adapt seamlessly to various screen sizes and devices.",
-  },
-  {
-    icon: AcademicCapIcon,
-    title: "JavaScript Developer Certification - Code Academy",
-    date: "2014",
-    children:
-      "This certification demonstrates advanced proficiency in JavaScript programming, including ES6 features and practical applications.",
-  },
-  {
-    icon: AcademicCapIcon,
-    title: "Bachelor of Science in Computer Science - XYZ University",
-    date: "2014-2016",
-    children:
-      "Relevant Coursework: Data Structures, Algorithms, Web Development, Software Engineering, Database Management.",
-  },
-];
+// const EDUCATION = [
+//   {
+//     icon: AcademicCapIcon,
+//     title: "Certified Web Developer - Web Development Institute",
+//     date: "2016",
+//     children:
+//       "This comprehensive program covered HTML5, CSS3, JavaScript, responsive design, server-side scripting, and web security.",
+//   },
+//   {
+//     icon: AcademicCapIcon,
+//     title: "Responsive Web Design Certification - FreeCodeCamp",
+//     date: "2015",
+//     children:
+//       "The Responsive Web Design certification signifies competence in designing and developing websites that adapt seamlessly to various screen sizes and devices.",
+//   },
+//   {
+//     icon: AcademicCapIcon,
+//     title: "JavaScript Developer Certification - Code Academy",
+//     date: "2014",
+//     children:
+//       "This certification demonstrates advanced proficiency in JavaScript programming, including ES6 features and practical applications.",
+//   },
+//   {
+//     icon: AcademicCapIcon,
+//     title: "Bachelor of Science in Computer Science - XYZ University",
+//     date: "2014-2016",
+//     children:
+//       "Relevant Coursework: Data Structures, Algorithms, Web Development, Software Engineering, Database Management.",
+//   },
+// ];
 
 const EXPERIENCE = [
   {
     icon: BriefcaseIcon,
-    title: "Freelancer Web Developer",
-    date: "2023 - PRESENT",
+    title: "Universitas Singaperbangsa Karawang",
+    subtitle: "Asisten Praktikum Mata Kuliah Aplikasi Pemrograman Komputer",
+    date: "October, 2022",
     children:
-      "The core of my work involved actual web development. I would write code, design layouts, and create functionality based on the project's specifications.",
+      "Saya merancang modul pembelajaran PHP dan Python, memimpin workshop pemrograman web, dan membimbing mahasiswa dalam praktikum pemrograman komputer. Keahlian saya meliputi pengembangan kurikulum, pengajaran interaktif, dan evaluasi kode secara mendalam, membantu mahasiswa mengasah keterampilan pemrograman mereka dari konsep dasar hingga aplikasi praktis.",
   },
   {
     icon: BriefcaseIcon,
-    title: "Technical Team Lead",
-    date: "2021 - 2023",
+    title: "Himpunan Mahasiswa Teknik Elektro 2022",
+    subtitle: "Anggota Divisi Kominfo Internal",
+    date: "February, 2022 - January, 2023",
     children:
-      "I provided strong leadership by overseeing and guiding a team of highly skilled technical professionals.",
+      "Saya mengembangkan strategi konten yang menarik bersama tim kreatif, membangun hubungan produktif dengan organisasi mahasiswa, dan memimpin pengembangan website resmi organisasi sebagai Full-stack Developer. Keahlian saya mencakup perencanaan konten strategis, kolaborasi lintas tim, dan pengembangan web komprehensif.",
   },
   {
     icon: BriefcaseIcon,
-    title: "Senior Web Developer",
-    date: "2017 - 2021",
+    title: "Latihan Kepemimpinan Mahasiswa Elektro 2021",
+    subtitle: "Ketua Pelaksana",
+    date: "November, 2021",
     children:
-      "Revamped the automated test framework for web services, resulting in a remarkable 90% reduction in debugging and issue resolution time.",
+      "Sebagai ketua pelaksana panitia LKME 2021, saya mengelola seluruh rangkaian kegiatan, memimpin pengambilan keputusan dalam rapat panitia, dan memastikan tercapainya tujuan acara. Tanggung jawab saya mencakup koordinasi tim, manajemen acara, dan pelaporan hasil kepada pengurus HIMTEL UNSIKA 2021, memastikan keberhasilan dan keberlanjutan program ini.",
   },
   {
     icon: BriefcaseIcon,
-    title: "Junior Web Developer",
-    date: "2015 - 2017",
+    title: "PT. PLN Indonesia Power Kamojang POMU",
+    subtitle: "Tim Instrument and Control",
+    date: "February, 2023",
     children:
-      "Developed 10+ responsive websites for clients in a variety of industries.",
+      "Selama magang di PT. PLN Indonesia Power Kamojang POMU, saya mendalami sistem pembangkit listrik tenaga panas bumi dan peran engineer di industri ini. Saya mempelajari visi-misi perusahaan, berkolaborasi dengan teknisi dalam sistem kontrol dan instrumentasi, serta menganalisis sistem kontrol mesin pembangkit. Pengalaman ini memberikan wawasan komprehensif tentang operasional pembangkit listrik dan penerapan teknologi di lapangan.",
   },
 ];
 
-const SKILLS = [
-  {
-    icon: FireIcon,
-    title: "Front-End Frameworks",
-    date: "Technical Skills",
-    children:
-      "Competent in working with front-end frameworks such as React, Angular, or Vue.js to develop dynamic and responsive web applications with a focus on user experience.",
-  },
-  {
-    icon: FireIcon,
-    title: "Attention to Detail",
-    date: "Soft Skills",
-    children:
-      "Meticulous attention to detail in code quality, user interface design, and testing to ensure error-free and user-friendly web applications.",
-  },
-  {
-    icon: FireIcon,
-    title: "Responsive Web Design",
-    date: "Technical Skills",
-    children:
-      "Skilled in creating responsive layouts using CSS Grid, Flexbox, and media queries. Ensures websites adapt seamlessly to various screen sizes and devices.",
-  },
-  {
-    icon: FireIcon,
-    title: "Time Management",
-    date: "Soft Skills",
-    children:
-      "Excellent time management skills to meet project deadlines, prioritize tasks effectively, and handle multiple projects simultaneously.",
-  },
-];
+// const SKILLS = [
+//   {
+//     icon: FireIcon,
+//     title: "Front-End Frameworks",
+//     date: "Technical Skills",
+//     children:
+//       "Competent in working with front-end frameworks such as React, Angular, or Vue.js to develop dynamic and responsive web applications with a focus on user experience.",
+//   },
+//   {
+//     icon: FireIcon,
+//     title: "Attention to Detail",
+//     date: "Soft Skills",
+//     children:
+//       "Meticulous attention to detail in code quality, user interface design, and testing to ensure error-free and user-friendly web applications.",
+//   },
+//   {
+//     icon: FireIcon,
+//     title: "Responsive Web Design",
+//     date: "Technical Skills",
+//     children:
+//       "Skilled in creating responsive layouts using CSS Grid, Flexbox, and media queries. Ensures websites adapt seamlessly to various screen sizes and devices.",
+//   },
+//   {
+//     icon: FireIcon,
+//     title: "Time Management",
+//     date: "Soft Skills",
+//     children:
+//       "Excellent time management skills to meet project deadlines, prioritize tasks effectively, and handle multiple projects simultaneously.",
+//   },
+// ];
 
 export function InformationSection() {
   return (
     <section className="pb-28 px-8">
       <div className="w-full max-w-3xl mx-auto">
         {/* Different Template */}
-
         <ol className="relative border-s border-gray-200 dark:border-gray-700">
-
-          <li className="mb-10 ms-6">
-            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-              <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-              </svg>
-            </span>
-            <h3 className="text-lg font-bold text-gray-900 dark:text-white">Asisten Praktikum Mata Kuliah Aplikasi Pemrograman Komputer</h3>
-            <h4 className="mb-1 text-md font-semibold text-gray-900 dark:text-white">Universitas Singaperbangsa Karawang</h4>
-            <time className="mb-2 py-2 px-1 rounded-xl text-sm font-semibold leading-none text-green-800 dark:text-gray-500 bg-green-200">Oktober - December, 2022</time>
-            <p className="mt-2 text-base font-normal text-gray-800 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
-          </li>
-
-          <li className="mb-10 ms-6">
-            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-              <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-              </svg>
-            </span>
-            <h3 className="text-lg font-bold text-gray-900 dark:text-white">Himpunan Mahasiswa Teknik Elektro 2022</h3>
-            <h4 className="mb-1 text-md font-semibold text-gray-900 dark:text-white">Universitas Singaperbangsa Karawang</h4>
-            <time className="mb-2 py-2 px-1 rounded-xl text-sm font-semibold leading-none text-green-800 dark:text-gray-500 bg-green-200">February 2022 - January, 2023</time>
-            <p className="mt-2 text-base font-normal text-gray-800 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
-          </li>
-          
-          
+          {EXPERIENCE.map((props, idx) => (
+              <InfoCard key={idx} {...props} />
+            ))}
         </ol>
-
-
       </div>
     </section>
   );
