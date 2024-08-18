@@ -41,7 +41,7 @@ import InfoCard from "@/components/info-card";
 
 const EXPERIENCE = [
   {
-    icon: BriefcaseIcon,
+    icon: "/logos/logo-unsika.png",
     title: "Universitas Singaperbangsa Karawang",
     subtitle: "Asisten Praktikum Mata Kuliah Aplikasi Pemrograman Komputer",
     date: "October, 2022",
@@ -49,7 +49,7 @@ const EXPERIENCE = [
       "Saya merancang modul pembelajaran PHP dan Python, memimpin workshop pemrograman web, dan membimbing mahasiswa dalam praktikum pemrograman komputer. Keahlian saya meliputi pengembangan kurikulum, pengajaran interaktif, dan evaluasi kode secara mendalam, membantu mahasiswa mengasah keterampilan pemrograman mereka dari konsep dasar hingga aplikasi praktis.",
   },
   {
-    icon: BriefcaseIcon,
+    icon: "/logos/logo-himtel.png",
     title: "Himpunan Mahasiswa Teknik Elektro 2022",
     subtitle: "Anggota Divisi Kominfo Internal",
     date: "February, 2022 - January, 2023",
@@ -57,7 +57,7 @@ const EXPERIENCE = [
       "Saya mengembangkan strategi konten yang menarik bersama tim kreatif, membangun hubungan produktif dengan organisasi mahasiswa, dan memimpin pengembangan website resmi organisasi sebagai Full-stack Developer. Keahlian saya mencakup perencanaan konten strategis, kolaborasi lintas tim, dan pengembangan web komprehensif.",
   },
   {
-    icon: BriefcaseIcon,
+    icon: "/logos/logo-lkme21.png",
     title: "Latihan Kepemimpinan Mahasiswa Elektro 2021",
     subtitle: "Ketua Pelaksana",
     date: "November, 2021",
@@ -65,7 +65,7 @@ const EXPERIENCE = [
       "Sebagai ketua pelaksana panitia LKME 2021, saya mengelola seluruh rangkaian kegiatan, memimpin pengambilan keputusan dalam rapat panitia, dan memastikan tercapainya tujuan acara. Tanggung jawab saya mencakup koordinasi tim, manajemen acara, dan pelaporan hasil kepada pengurus HIMTEL UNSIKA 2021, memastikan keberhasilan dan keberlanjutan program ini.",
   },
   {
-    icon: BriefcaseIcon,
+    icon: "/logos/logo-pln.png",
     title: "PT. PLN Indonesia Power Kamojang POMU",
     subtitle: "Tim Instrument and Control",
     date: "February, 2023",
