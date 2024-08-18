@@ -1,10 +1,5 @@
 "use client";
 import { Typography } from "@material-tailwind/react";
-import {
-  AcademicCapIcon,
-  BriefcaseIcon,
-  FireIcon,
-} from "@heroicons/react/24/solid";
 
 import InfoCard from "@/components/info-card";
 
@@ -41,6 +36,14 @@ import InfoCard from "@/components/info-card";
 
 const EXPERIENCE = [
   {
+    icon: "/logos/logo-lkme21.png",
+    title: "Latihan Kepemimpinan Mahasiswa Elektro 2021",
+    subtitle: "Ketua Pelaksana",
+    date: "November, 2021",
+    children:
+      "Sebagai ketua pelaksana panitia LKME 2021, saya mengelola seluruh rangkaian kegiatan, memimpin pengambilan keputusan dalam rapat panitia, dan memastikan tercapainya tujuan acara. Tanggung jawab saya mencakup koordinasi tim, manajemen acara, dan pelaporan hasil kepada pengurus HIMTEL UNSIKA 2021, memastikan keberhasilan dan keberlanjutan program ini.",
+  },
+  {
     icon: "/logos/logo-unsika.png",
     title: "Universitas Singaperbangsa Karawang",
     subtitle: "Asisten Praktikum Mata Kuliah Aplikasi Pemrograman Komputer",
@@ -57,20 +60,20 @@ const EXPERIENCE = [
       "Saya mengembangkan strategi konten yang menarik bersama tim kreatif, membangun hubungan produktif dengan organisasi mahasiswa, dan memimpin pengembangan website resmi organisasi sebagai Full-stack Developer. Keahlian saya mencakup perencanaan konten strategis, kolaborasi lintas tim, dan pengembangan web komprehensif.",
   },
   {
-    icon: "/logos/logo-lkme21.png",
-    title: "Latihan Kepemimpinan Mahasiswa Elektro 2021",
-    subtitle: "Ketua Pelaksana",
-    date: "November, 2021",
-    children:
-      "Sebagai ketua pelaksana panitia LKME 2021, saya mengelola seluruh rangkaian kegiatan, memimpin pengambilan keputusan dalam rapat panitia, dan memastikan tercapainya tujuan acara. Tanggung jawab saya mencakup koordinasi tim, manajemen acara, dan pelaporan hasil kepada pengurus HIMTEL UNSIKA 2021, memastikan keberhasilan dan keberlanjutan program ini.",
-  },
-  {
     icon: "/logos/logo-pln.png",
     title: "PT. PLN Indonesia Power Kamojang POMU",
     subtitle: "Tim Instrument and Control",
     date: "February, 2023",
     children:
       "Selama magang di PT. PLN Indonesia Power Kamojang POMU, saya mendalami sistem pembangkit listrik tenaga panas bumi dan peran engineer di industri ini. Saya mempelajari visi-misi perusahaan, berkolaborasi dengan teknisi dalam sistem kontrol dan instrumentasi, serta menganalisis sistem kontrol mesin pembangkit. Pengalaman ini memberikan wawasan komprehensif tentang operasional pembangkit listrik dan penerapan teknologi di lapangan.",
+  },
+  {
+    icon: "/logos/logo-unsika.png",
+    title: "Universitas Singaperbangsa Karawang",
+    subtitle: "Koordinator Asisten Laboratorium Praktikum Mata Kuliah Aplikasi Pemrograman Komputer",
+    date: "October, 2023 - November, 2023",
+    children:
+      "Sebagai koordinator praktikum, saya memperbarui modul pembelajaran dengan materi terkini, membimbing asisten dalam memimpin workshop, dan mendampingi mereka saat membimbing praktikan. Saya juga bertanggung jawab menganalisis dan mengevaluasi program yang dihasilkan praktikan, memastikan kualitas pembelajaran dan pengembangan keterampilan yang optimal dalam kegiatan praktikum.",
   },
 ];
 

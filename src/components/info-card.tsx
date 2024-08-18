@@ -1,11 +1,3 @@
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-  IconButton,
-} from "@material-tailwind/react";
-
 import Image from "next/image";
 
 interface InfoCardProps {
