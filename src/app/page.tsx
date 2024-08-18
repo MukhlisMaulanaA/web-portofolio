@@ -11,8 +11,8 @@ export default function Portfolio() {
     <>
       <Navbar />
       <Hero />
-      <InformationSection />
       <Testimonial />
+      <InformationSection />
       <Footer />
     </>
   );

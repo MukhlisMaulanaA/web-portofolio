@@ -12,7 +12,7 @@ const config: Config = withMT({
       wordsets: {
         skills: {
           words: [
-            'Laravel Developer',
+            'Full-stack Web Developer',
             'Python Developer',
             'Machine Learning Engineer',
             'Data Analytics',

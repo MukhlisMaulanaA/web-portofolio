@@ -109,11 +109,14 @@ export function InformationSection() {
   return (
     <section className="pb-28 px-8">
       <div className="w-full max-w-3xl mx-auto">
+      <Typography variant="h2" color="blue-gray" className="mb-10 text-center">
+        Resume
+      </Typography>
         {/* Different Template */}
         <ol className="relative border-s border-gray-200 dark:border-gray-700">
           {EXPERIENCE.map((props, idx) => (
-              <InfoCard key={idx} {...props} />
-            ))}
+            <InfoCard key={idx} {...props} />
+          ))}
         </ol>
       </div>
     </section>
