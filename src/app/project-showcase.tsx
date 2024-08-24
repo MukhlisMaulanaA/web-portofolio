@@ -9,9 +9,33 @@ const PROJECT = [
     image: "/image/project-showcase-sihacov.png",
     date: "31 July 2024",
     category: "Website",
-    description: "Lorem Ipsum Dolor Sit Amet",
+    description: "Website official produk SIHACOV. Website ini dibuat dengan tujuan pengenalan dan branding produk. Dengan menggunakan framework NextJs dan React website ini dideploy pada platform Vercel dan terintegrasi dengan repositori Github.",
     link: "https://web-sihacov.vercel.app/",
-  }
+  },
+  {
+    title: "Web Official SIHACOV",
+    image: "/image/project-showcase-sihacov.png",
+    date: "31 July 2024",
+    category: "Website",
+    description: "Website official produk SIHACOV. Website ini dibuat dengan tujuan pengenalan dan branding produk. Dengan menggunakan framework NextJs dan React website ini dideploy pada platform Vercel dan terintegrasi dengan repositori Github.",
+    link: "https://web-sihacov.vercel.app/",
+  },
+  {
+    title: "Web Official SIHACOV",
+    image: "/image/project-showcase-sihacov.png",
+    date: "31 July 2024",
+    category: "Website",
+    description: "Website official produk SIHACOV. Website ini dibuat dengan tujuan pengenalan dan branding produk. Dengan menggunakan framework NextJs dan React website ini dideploy pada platform Vercel dan terintegrasi dengan repositori Github.",
+    link: "https://web-sihacov.vercel.app/",
+  },
+  {
+    title: "Web Official SIHACOV",
+    image: "/image/project-showcase-sihacov.png",
+    date: "31 July 2024",
+    category: "Website",
+    description: "Website official produk SIHACOV. Website ini dibuat dengan tujuan pengenalan dan branding produk. Dengan menggunakan framework NextJs dan React website ini dideploy pada platform Vercel dan terintegrasi dengan repositori Github.",
+    link: "https://web-sihacov.vercel.app/",
+  },
 ]
 
 export function ProjectShowcase() {
@@ -21,11 +45,9 @@ export function ProjectShowcase() {
         Projects Showcase
       </Typography>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-10 md:px-20">
-        <div className="bg-white rounded-xl shadow-md overflow-hidden">
-          {PROJECT.map((props, idx) => (
-            <ProjectCard key={idx} {...props} />
-          ))}
-        </div>
+        {PROJECT.map((props, idx) => (
+          <ProjectCard key={idx} {...props} />
+        ))}
       </div>
     </section>
   );
