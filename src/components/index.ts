@@ -5,3 +5,4 @@ export * from "./footer";
 export * from "./layout";
 export * from "./info-card";
 export * from "./fixed-plugin";
+export * from "./project-card";

@@ -1,6 +1,5 @@
 "use client";
 import { Typography } from "@material-tailwind/react";
-
 import InfoCard from "@/components/info-card";
 
 // const EDUCATION = [
