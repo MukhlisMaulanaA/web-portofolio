@@ -1,5 +1,5 @@
 "use client";
-import { Typography } from "@material-tailwind/react";
+import { Typography, Button } from "@material-tailwind/react";
 
 import ProjectCard from "@/components/project-card";
 
@@ -10,7 +10,7 @@ const PROJECT = [
     date: "31 July 2024",
     category: "Website",
     description: "Lorem Ipsum Dolor Sit Amet",
-    link: "",
+    link: "https://web-sihacov.vercel.app/",
   }
 ]
 
