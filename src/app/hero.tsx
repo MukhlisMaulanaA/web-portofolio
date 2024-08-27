@@ -21,15 +21,21 @@ function Hero() {
             Connect me on:
           </Typography>
           <div className="gap-2 lg:flex">
-            <IconButton variant="text" color="gray">
-              <i className="fa-brands fa-facebook text-lg" />
-            </IconButton>
-            <IconButton variant="text" color="gray">
-              <i className="fa-brands fa-instagram text-lg" />
-            </IconButton>
-            <IconButton variant="text" color="gray">
-              <i className="fa-brands fa-github text-lg" />
-            </IconButton>
+            <a href="https://www.instagram.com/alfaqih.qih/" target="blank">
+              <IconButton variant="text" color="gray">
+                <i className="fa-brands fa-instagram text-lg" />
+              </IconButton>
+            </a>
+            <a href="https://github.com/MukhlisMaulanaA" target="blank">
+              <IconButton variant="text" color="gray">
+                <i className="fa-brands fa-github text-lg" />
+              </IconButton>
+            </a>
+            <a href="https://www.linkedin.com/in/mukhlis-maulana-al-fakih-627104321/" target="blank">
+              <IconButton variant="text" color="gray">
+                <i className="fa-brands fa-linkedin text-lg" />
+              </IconButton>
+            </a>
           </div>
         </div>
       </div>

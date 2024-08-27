@@ -24,14 +24,16 @@ const PROJECT = [
 
 export function ProjectShowcase() {
   return (
-    <section className="pb-28 px-8">
-      <Typography variant="h2" color="blue-gray" className="mb-10 text-center">
-        Projects Showcase
-      </Typography>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-10 md:px-20">
-        {PROJECT.map((props, idx) => (
-          <ProjectCard key={idx} {...props} />
-        ))}
+    <section className="pb-28 px-8" id="project-showcase">
+      <div className="w-full max-w-4xl mx-auto">
+        <Typography variant="h2" color="blue-gray" className="mb-10 text-center">
+          Projects Showcase
+        </Typography>
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-3 md:px-5">
+          {PROJECT.map((props, idx) => (
+            <ProjectCard key={idx} {...props} />
+          ))}
+        </div>
       </div>
     </section>
   );

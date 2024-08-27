@@ -93,7 +93,7 @@ const EXPERIENCE = [
 
 export function InformationSection() {
   return (
-    <section className="pb-28 px-8">
+    <section className="pb-28 px-8" id="information-section">
       <div className="w-full max-w-3xl mx-auto">
       <Typography variant="h2" color="blue-gray" className="mb-10 text-center">
         Resume
