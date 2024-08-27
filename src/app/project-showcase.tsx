@@ -20,6 +20,14 @@ const PROJECT = [
     description: "Webiste Official Himpunan Mahasiswa Teknik Elektro periode 2022. Website ini dibangun menggunakan HTML & CSS untuk front-end dan PHP (native) untuk back-end. Website berbasis Content Management System (CMS) untuk berita atau info untuk mahasiswa Teknik Elektro Unsika.",
     link: "https://himtelunsika.com/",
   },
+  {
+    title: "Amazon Prime Movies and TV Shows Visualization",
+    image: "/image/project-showcase-data-analyst.png",
+    date: "24 August 2024",
+    category: "Data Analyst",
+    description: "Menganalisis dataset Amazon Prime Movies and TV Shows yang bersifat open-source. Melakukan exploratory, cleaning data dan memvisualisasikan dalam bentuk grafik menggunakan bahasa pemrograman Python.",
+    link: "https://docs.google.com/presentation/d/14Nq5Ck4pacf2fK7A3EMT1uRPhCq2rfpXJWfhMYUXSvM/edit?usp=sharing",
+  },
 ]
 
 export function ProjectShowcase() {
