@@ -8,10 +8,9 @@ const nextConfig = {
       },
       
     ],
-    eslint: 
-    {
+  },
+  eslint: {
     ignoreDuringBuilds: true,
-    },
   },
 };
 
