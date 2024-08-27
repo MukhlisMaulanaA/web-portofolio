@@ -5,7 +5,7 @@ import ProjectCard from "@/components/project-card";
 
 const PROJECT = [
   {
-    title: "Web Official SIHACOV",
+    title: "Website Official SIHACOV",
     image: "/image/project-showcase-sihacov.png",
     date: "31 July 2024",
     category: "Website",
@@ -13,28 +13,12 @@ const PROJECT = [
     link: "https://web-sihacov.vercel.app/",
   },
   {
-    title: "Web Official SIHACOV",
-    image: "/image/project-showcase-sihacov.png",
-    date: "31 July 2024",
+    title: "Website Official Himtel Unsika 2022",
+    image: "/image/project-showcase-himtel.png",
+    date: "18 January 2023",
     category: "Website",
-    description: "Website official produk SIHACOV. Website ini dibuat dengan tujuan pengenalan dan branding produk. Dengan menggunakan framework NextJs dan React website ini dideploy pada platform Vercel dan terintegrasi dengan repositori Github.",
-    link: "https://web-sihacov.vercel.app/",
-  },
-  {
-    title: "Web Official SIHACOV",
-    image: "/image/project-showcase-sihacov.png",
-    date: "31 July 2024",
-    category: "Website",
-    description: "Website official produk SIHACOV. Website ini dibuat dengan tujuan pengenalan dan branding produk. Dengan menggunakan framework NextJs dan React website ini dideploy pada platform Vercel dan terintegrasi dengan repositori Github.",
-    link: "https://web-sihacov.vercel.app/",
-  },
-  {
-    title: "Web Official SIHACOV",
-    image: "/image/project-showcase-sihacov.png",
-    date: "31 July 2024",
-    category: "Website",
-    description: "Website official produk SIHACOV. Website ini dibuat dengan tujuan pengenalan dan branding produk. Dengan menggunakan framework NextJs dan React website ini dideploy pada platform Vercel dan terintegrasi dengan repositori Github.",
-    link: "https://web-sihacov.vercel.app/",
+    description: "Webiste Official Himpunan Mahasiswa Teknik Elektro periode 2022. Website ini dibangun menggunakan HTML & CSS untuk front-end dan PHP (native) untuk back-end. Website berbasis Content Management System (CMS) untuk berita atau info untuk mahasiswa Teknik Elektro Unsika.",
+    link: "https://himtelunsika.com/",
   },
 ]
 
