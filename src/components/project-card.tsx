@@ -9,8 +9,11 @@ interface InfoProjectProps {
   link: string;
 }
 
+// Definisikan tipe untuk kategori yang valid
+type CategoryType = 'Website' | 'Data Analyst' | 'Data Science' | 'Machine Learning' | 'Default';
+
 // Objek untuk memetakan kategori ke warna
-const categoryColors = {
+const categoryColors: Record<CategoryType, string> = {
   "Website": "bg-indigo-500",
   "Data Analyst": "bg-green-500",
   "Data Science": "bg-yellow-500",
@@ -21,7 +24,7 @@ const categoryColors = {
 
 export function ProjectCard({ title, image, date, category, description, link }: InfoProjectProps) {
   const getCategoryColor = (category: string) => {
-    return categoryColors[category] || categoryColors["Default"];
+    return categoryColors[category as CategoryType] || categoryColors["Default"];
   };
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden">
