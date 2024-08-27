@@ -51,6 +51,22 @@ const TECH = [
     alt: "ipynb",
     image: "/logos/logo-ipynb.png",
   },
+  {
+    alt: "scikit",
+    image: "/logos/logo-scikit.png",
+  },
+  {
+    alt: "numpy",
+    image: "/logos/logo-numpy.png",
+  },
+  {
+    alt: "matplotlib",
+    image: "/logos/logo-matplotlib.png",
+  },
+  {
+    alt: "arduino",
+    image: "/logos/logo-arduino.png",
+  },
 ]
 
 export function TechStack() {
@@ -59,8 +75,8 @@ export function TechStack() {
       <div className="w-full max-w-4xl mx-auto">
         <Typography variant="h2" color="blue-gray" className="mb-10 text-center">
           Tech Stack
-        </Typography>
-        <div className="grid grid-cols-6 gap-1">
+        </Typography> 
+        <div className="grid justify-items-center xl:grid-cols-6 gap-2 md:grid-cols-4 sm:grid-cols-3">
           {TECH.map((props, idx) => (
             <TechCard key={idx} {...props}/>
           ))}
