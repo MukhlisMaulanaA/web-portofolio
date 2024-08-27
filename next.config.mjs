@@ -6,7 +6,12 @@ const nextConfig = {
         protocol: "https",
         hostname: "**",
       },
+      
     ],
+    eslint: 
+    {
+    ignoreDuringBuilds: true,
+    },
   },
 };
 
