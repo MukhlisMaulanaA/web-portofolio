@@ -6,3 +6,4 @@ export * from "./layout";
 export * from "./info-card";
 export * from "./fixed-plugin";
 export * from "./project-card";
+export * from "./tech-card";

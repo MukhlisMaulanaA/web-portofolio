@@ -9,7 +9,7 @@ import {
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 
 const NAV_MENU = ["Home", "About Me", "Project", "Resume"];
-const NAV_LINK = ["#", "#about-me", "#project-showcase", "#information-section"]
+const NAV_LINK = ["#", "#about-me", "#project-showcase", "#information-section"];
 
 function NavItem({ children, href }: { children: React.ReactNode; href: string }) {
   return (
