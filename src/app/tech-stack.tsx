@@ -76,7 +76,7 @@ export function TechStack() {
         <Typography variant="h2" color="blue-gray" className="mb-10 text-center">
           Tech Stack
         </Typography> 
-        <div className="grid justify-items-center xl:grid-cols-6 gap-2 md:grid-cols-4 sm:grid-cols-3">
+        <div className="grid justify-items-center grid-cols-2 xl:grid-cols-6 gap-2 md:grid-cols-4 sm:grid-cols-3">
           {TECH.map((props, idx) => (
             <TechCard key={idx} {...props}/>
           ))}
