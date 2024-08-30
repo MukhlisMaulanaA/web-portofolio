@@ -2,6 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import { Layout, FixedPlugin } from "@/components";
+import { Analytics } from '@vercel/analytics/react';
+
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -35,6 +37,7 @@ export default function RootLayout({
       <body className={roboto.className}>
         <Layout>
           {children}
+          <Analytics />
           {/* <FixedPlugin /> */}
         </Layout>
       </body>
