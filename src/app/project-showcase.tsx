@@ -28,6 +28,14 @@ const PROJECT = [
     description: "Menganalisis dataset Amazon Prime Movies and TV Shows yang bersifat open-source. Melakukan exploratory, cleaning data dan memvisualisasikan dalam bentuk grafik menggunakan bahasa pemrograman Python.",
     link: "https://docs.google.com/presentation/d/14Nq5Ck4pacf2fK7A3EMT1uRPhCq2rfpXJWfhMYUXSvM/edit?usp=sharing",
   },
+  {
+    title: "Cohort User Retention Analysis",
+    image: "/image/project-showcase-user-retention.png",
+    date: "5 September 2024",
+    category: "Data Analyst",
+    description: "Analisis retensi user menggunakan metode Cohort. Analisis ini berfungsi untuk mengetahui frekuensi user yang kembali bertransaksi/ menggunakan produk kita. Memiliki pengguna yang loyal dan terus kembali untuk bertransaksi atau menggunakan produk kita akan menghasilkan keuntungan bagi bisnis kita.",
+    link: "https://docs.google.com/presentation/d/1PN2H0ZsMfGqiP_a-sb7f63K8XUyyFAa0xrfyPGURtM0/edit?usp=sharing",
+  },
 ]
 
 export function ProjectShowcase() {

@@ -31,7 +31,7 @@ function Hero() {
                 <i className="fa-brands fa-github text-lg" />
               </IconButton>
             </a>
-            <a href="https://www.linkedin.com/in/mukhlis-maulana-al-fakih-627104321/" target="blank">
+            <a href="https://www.linkedin.com/in/mukhlisalf/" target="blank">
               <IconButton variant="text" color="gray">
                 <i className="fa-brands fa-linkedin text-lg" />
               </IconButton>
