@@ -8,7 +8,7 @@ function Hero() {
       <div className="grid place-items-center min-h-[92vh] px-8">
         <div className="container mx-auto grid place-items-center h-max text-center">
           <Typography variant="h1" color="blue-gray">
-            I'm <span className="type-skills"></span>
+            I'm a <span className="type-skills"></span>
           </Typography>
           <Typography
             variant="lead"
