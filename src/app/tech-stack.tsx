@@ -24,12 +24,24 @@ const TECH = [
     image: "/logos/logo-mysql.svg",
   },
   {
+    alt: "postman",
+    image: "/logos/logo-postman.png",
+  },
+  {
     alt: "tsx",
     image: "/logos/logo-tsx.png",
   },
   {
     alt: "tailwindcss",
     image: "/logos/logo-tailwindcssv2.svg",
+  },
+  {
+    alt: "bootstrap",
+    image: "/logos/logo-bootstrap.png",
+  },
+  {
+    alt: "react",
+    image: "/logos/logo-react.png",
   },
   {
     alt: "python",

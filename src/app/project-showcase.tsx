@@ -41,12 +41,21 @@ const PROJECT = [
     link_github: "https://github.com/MukhlisMaulanaA/data-analytics-python/blob/main/user-retention.ipynb",
   },
   {
+    title: "User RFM Segmentation",
+    image: "/image/project-showcase-rfm-segmentation.png",
+    date: "9 September 2024",
+    category: "Data Analyst",
+    description: "RFM Segmentation merupakan teknik segmentasi pengguna berdasarkan 3 karakteristik utama dari kebiasaan transaksi yaitu kebaruan (recency), frekuensi (frequency) dan moneter (monetary). Jika kita mampu mengelompokan setiap pengguna ke beberapa segmen, maka kita dapat melakukan tindakan lebih tepat sasaran.",
+    link: "https://docs.google.com/presentation/d/180IWHTioSGQnJfjrEumMnAZNzwT_J6amz6pcCU4TFLw/edit?usp=sharing",
+    link_github: "https://github.com/MukhlisMaulanaA/data-analytics-python/blob/main/user-segmentation.ipynb",
+  },
+  {
     title: "Laravel - E-Commerce with Admin Dashboard",
     image: "/image/project-showcase-ecommerce.png",
     date: "Coming Soon..",
     category: "Website",
-    description: "Website E-Commerce dengan Payment Gateway menggunakan API Midtrans dan pengecekan ongkir menggunakan API rajaongkir. Dibangun menggunakan framework Laravel sebagai Back-end dan tailwindcss sebagai front-endnya. Project ini masih dalam tahap pengembangan di bagian dashboard Admin.",
-    link: " ",
+    description: "Website E-Commerce dengan Payment Gateway menggunakan API Midtrans dan pengecekan ongkir menggunakan API rajaongkir. Dibangun menggunakan framework Laravel sebagai Back-end dan tailwindcss sebagai Front-endnya. Project ini masih dalam tahap pengembangan di bagian dashboard Admin. Stay tune..",
+    link: "",
     link_github: "https://github.com/MukhlisMaulanaA/ecommerce",
   },
 ]

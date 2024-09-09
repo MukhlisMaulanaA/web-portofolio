@@ -11,7 +11,7 @@ export function Footer() {
           <Typography className="text-center font-normal !text-gray-700">
             &copy; {CURRENT_YEAR} Made with{" "}
             <a href="https://www.material-tailwind.com" target="_blank">
-              Love
+              Love 💖
             </a>{" "}
             by{" "}
             <a href="https://www.creative-tim.com" target="_blank">
@@ -19,21 +19,6 @@ export function Footer() {
             </a>
             .
           </Typography>
-          {/* <ul className="flex gap-8 items-center">
-            {LINKS.map((link) => (
-              <li key={link}>
-                <Typography
-                  as="a"
-                  href="#"
-                  variant="small"
-                  className="font-normal text-gray-700 hover:text-gray-900 transition-colors"
-                >
-                  {link}
-                </Typography>
-              </li>
-            ))}
-            <Button color="gray">subscribe</Button>
-          </ul> */}
         </div>
       </div>
     </footer>
