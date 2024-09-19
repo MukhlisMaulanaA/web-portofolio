@@ -50,6 +50,15 @@ const PROJECT = [
     link_github: "https://github.com/MukhlisMaulanaA/data-analytics-python/blob/main/user-segmentation.ipynb",
   },
   {
+    title: "Market Basket Analysis",
+    image: "/image/project-showcase-mba.png",
+    date: "18 September 2024",
+    category: "Data Analyst",
+    description: "MBA (Market Basket Analysis) merupakan suatu teknik untuk menemukan asosiasi dari 2 produk atau lebih dari sekumpulan data transaksi pengguna. Konsep utama yang digunakan adalah perhitungan frekuensi kemunculan produk-produk yang dibeli secara bersamaan dalam suatu transaksi/order.",
+    link: "https://docs.google.com/presentation/d/1QShL3PBhzhVhOFSjUhWh3jk1gM7ZBjRTSwMWxTVW4GA/edit?usp=sharing",
+    link_github: "https://github.com/MukhlisMaulanaA/data-analytics-python/blob/main/market-basket-analysis.ipynb",
+  },
+  {
     title: "Laravel - E-Commerce with Admin Dashboard",
     image: "/image/project-showcase-ecommerce.png",
     date: "Coming Soon..",
