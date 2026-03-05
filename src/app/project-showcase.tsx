@@ -67,15 +67,6 @@ const PROJECT = [
     link: "",
     link_github: "https://github.com/MukhlisMaulanaA/ecommerce",
   },
-  {
-    title: "BG Cold Spade",
-    image: "/image/project-showcase-bg-cold-spade.png",
-    date: "5 Maret 2026",
-    category: "Website",
-    description: "This website was created based on a fake brief from Good Brief. It serves to showcase the products of a company that manufactures bicycles for children. The website is aimed at parents. It is designed to make it easy for users to purchase products with CTA optimisation.",
-    link: "",
-    link_github: "https://github.com/MukhlisMaulanaA/bg-cold-spade",
-  },
 ]
 
 export function ProjectShowcase() {
