@@ -1,4 +1,4 @@
-<h1 align="center">🚀 My Portfolio Website</h1>
+# 🚀 My Portfolio Website
 
 ![Hero Screenshot](public/image/banner-repo-github-wp.png)
 
