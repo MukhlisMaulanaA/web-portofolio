@@ -67,6 +67,15 @@ const PROJECT = [
     link: "",
     link_github: "https://github.com/MukhlisMaulanaA/ecommerce",
   },
+  {
+    title: "BG Cold Spade",
+    image: "/image/project-showcase-bg-cold-spade.png",
+    date: "5 Maret 2026",
+    category: "Website",
+    description: "Website BG Cold Spade adalah website Landing Pages yang digunakan sebuah perusahaan sepeda anak. Website ini berfungsi untuk menampilkan produk mereka dan menggiring Orang Tua anak untuk membelinya. Website ini dibuat berdasarkan fake brief dari Good Brief",
+    link: "https://mukhlismaulanaa.github.io/bg-cold-spade/",
+    link_github: "https://github.com/MukhlisMaulanaA/bg-cold-spade",
+  },
 ]
 
 export function ProjectShowcase() {
