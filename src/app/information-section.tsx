@@ -58,6 +58,14 @@ const EXPERIENCE = [
     children:
       "Sebagai koordinator praktikum, saya memperbarui modul pembelajaran dengan materi terkini, membimbing asisten dalam memimpin workshop, dan mendampingi mereka saat membimbing praktikan. Saya juga bertanggung jawab menganalisis dan mengevaluasi program yang dihasilkan praktikan, memastikan kualitas pembelajaran dan pengembangan keterampilan yang optimal dalam kegiatan praktikum.",
   },
+  {
+    icon: "/logos/dip-logo.png",
+    title: "PT. Datindo Infonet Prima",
+    subtitle: "Engineer",
+    date: "Oktober 2024 - Now",
+    children: 
+      "Engineer Service mesin ATM/CRM/MV KIOSK. Bertindak sebagai level 2 maintenance mesin ATM. Bertanggung jawab melakukan Preventive Maintenance dan Corrective Maintenance mesin ATM. Melakukan diagnosa problem Hardware/ Software pada mesin ATM dan memperbaikinya."
+  },
 ];
 
 // const SKILLS = [
