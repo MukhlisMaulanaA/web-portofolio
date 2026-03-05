@@ -59,6 +59,14 @@ const EXPERIENCE = [
       "Sebagai koordinator praktikum, saya memperbarui modul pembelajaran dengan materi terkini, membimbing asisten dalam memimpin workshop, dan mendampingi mereka saat membimbing praktikan. Saya juga bertanggung jawab menganalisis dan mengevaluasi program yang dihasilkan praktikan, memastikan kualitas pembelajaran dan pengembangan keterampilan yang optimal dalam kegiatan praktikum.",
   },
   {
+    icon: "/logos/pln-logo.png",
+    title: "PLN Indonesia Power",
+    subtitle: "Instrumentation and Control Engineer - Magang",
+    date: "Februari 2023",
+    children:
+      "Kerja Praktik di perusahaan pembangkit listrik tenaga panas bumi (PLTP) yaitu perusahaan PLN Indonesia Power Kamojang POMU. Masuk di tim Instrument dan Control. Mempelajari cara kerja pembangkit secara umum yang diterapkan di sana. Mempelajari peran seorang Instrument Engineer di PLTP.",
+  },
+  {
     icon: "/logos/dip-logo.png",
     title: "PT. Datindo Infonet Prima",
     subtitle: "Engineer",
