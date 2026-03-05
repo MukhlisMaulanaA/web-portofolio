@@ -68,6 +68,15 @@ const PROJECT = [
     link_github: "https://github.com/MukhlisMaulanaA/ecommerce",
   },
   {
+    title: "PM Cassette",
+    image: "/image/project-showcase-pm-cassette.png",
+    date: "29 Januari 2026",
+    category: "Website",
+    description: "PM Cassette Inspection PWA adalah aplikasi Progressive Web App (PWA) berbasis HTML, CSS, dan JavaScript yang menggunakan IndexedDB sebagai penyimpanan lokal. Aplikasi ini dirancang untuk mendukung proses Preventive Maintenance (PM) Cassette secara offline-first, terstruktur, dan konsisten, serta mampu menghasilkan laporan XLSX siap analisis data.",
+    link: "https://mukhlismaulanaa.github.io/pm-cassette/",
+    link_github: "https://github.com/MukhlisMaulanaA/pm-cassette",
+  },
+  {
     title: "BG Cold Spade",
     image: "/image/project-showcase-bg-cold-spade.png",
     date: "5 Maret 2026",
